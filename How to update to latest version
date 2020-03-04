@@ -1,0 +1,21 @@
+In order to update to the latest version.
+Delete all contents inside your assets folder.
+
+Then:
+  Drag asset_version_###.unitypackage into your empty asset folder.
+  If prompted to import TMP mesh template, ignore it. The Asset package already has its own template.
+  
+  Be sure to have the build scene's in the correct order:
+    1. Menu
+    2. Map
+    3. BattleScene
+    
+    To add scenes to build:
+      File > Build Settings > Drag scenes into "Scenes in Build".  THEN EXIT.
+      Note: clicking on build or build and run will create an exe program. This is not needed when testing scene switches.
+        Only build if you want to see what the client's will see when they run the exe application.
+  
+  
+  TO UPLOAD YOUR asset_version_###.unitypackage:
+    Right click "Assets" folder > Export Package > Export (be sure that include dependencies is checked) > save asset_version_###.unitypackage.
+    Upload asset_version_###.unitypackage to test branch.

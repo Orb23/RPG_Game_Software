@@ -8,12 +8,18 @@ Then:
   Be sure to have the build scene's in the correct order:
     1. Menu
     2. Map
-    3. BattleScene
+    3. BattleScene 1
+    4. BattleScene 2
+    5. BattleScene 3
+    6. Win Scene
     
     To add scenes to build:
       File > Build Settings > Drag scenes into "Scenes in Build".  THEN EXIT.
       Note: clicking on build or build and run will create an exe program. This is not needed when testing scene switches.
         Only build if you want to see what the client's will see when they run the exe application.
+        
+       Resolution Note:
+        Recommended Resolution is 1280 x 720
   
   
   TO UPLOAD YOUR asset_version_###.unitypackage:
